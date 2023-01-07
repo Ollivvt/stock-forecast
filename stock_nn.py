@@ -91,7 +91,6 @@ from keras.models import load_model
 model = load_model("nn_stock.h5")
 
 # 預測神經網路
-
 y_pre = model.predict(x_test)
 
 #還原標準化
